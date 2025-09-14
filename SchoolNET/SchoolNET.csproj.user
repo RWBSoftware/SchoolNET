@@ -1,49 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="View\MenuAluno\frmHistoricoAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmCadastro.cs">
+    <Compile Update="View\MenuConfig\frmConfig.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmEditar.cs">
+    <Compile Update="View\MenuEscola\frmExibirSalas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmEditarProfessor.cs">
+    <Compile Update="View\Menu\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmInserirAluno.cs">
+    <Compile Update="View\Menu\frmCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmInserirFuncionario.cs">
+    <Compile Update="View\MenuAluno\frmEditar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmInserirNota.cs">
+    <Compile Update="View\MenuProfessor\frmEditarProfessor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmInserirSala.cs">
+    <Compile Update="View\MenuAluno\frmInserirAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmInserirTurma.cs">
+    <Compile Update="View\MenuProfessor\frmInserirFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmLogin.cs">
+    <Compile Update="View\MenuAluno\frmInserirNota.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmMenuAluno.cs">
+    <Compile Update="View\MenuEscola\frmInserirSala.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmMenuEscola.cs">
+    <Compile Update="View\MenuEscola\frmInserirTurma.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmMenuPrincipal.cs">
+    <Compile Update="View\Menu\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmMenuProfessor.cs">
+    <Compile Update="View\MenuAluno\frmMenuAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmProfessorSala.cs">
+    <Compile Update="View\MenuEscola\frmMenuEscola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Menu\frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\MenuProfessor\frmMenuProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\MenuProfessor\frmProfessorSala.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
